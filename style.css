@@ -7,17 +7,17 @@ footer{
 }
 h1{
     text-align: center;
-    color:#D1E8E2;
+    color:#1d302b;
     font-size : 96px;
     font-family: Apple Chancery, cursive;
 }
 header{
-    background-color: #044a5d;
+    background-color: #6ecee9fa;
     margin-top: -70px;
     height: 160px;
 }
 body{
-    background-color:#2c3531;
+    background-color:#DCF7FF;
 }
 .navigation{
     text-align: center;
@@ -25,10 +25,16 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
+
+
 .presentation {
     display: inline-block;
-    background-color: #3d4944;
+    background-color: rgba(255, 214, 159, 0.5);
     border:#044a5d , solid ;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 15px;
+    margin-bottom: 10%;
 }
 
 .photoPres {
@@ -45,7 +51,7 @@ h2{
     flex-direction: row;
     flex-wrap: nowrap;
     font-family: Arial, Helvetica, sans-serif;
-    color:antiquewhite ;
+    color:rgb(31, 28, 25) ;
     font-size: 26px;
 }
 a{
